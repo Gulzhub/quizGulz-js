@@ -21,7 +21,7 @@ console.log('----------')
 
 //array of objects
 var questions = [{question : "What is Gulz's hometown? " , 
-answer : 'koraput'},{question : "What is Gulz's first name?(exact spelling) ", answer : 'Mohammed'},{question : "Is he a dog person or a cat person? " , answer : 'cat person'},{question : "Does he like sweets?(yes/no) " , answer : 'yes'}];
+answer : 'Koraput'},{question : "What is Gulz's first name?(exact spelling) ", answer : 'Mohammed'},{question : "Is he a dog person or a cat person? " , answer : 'cat person'},{question : "Does he like sweets?(yes/no) " , answer : 'yes'}];
 
 //loop
 for(var i = 0; i<questions.length; i++)
@@ -32,8 +32,8 @@ for(var i = 0; i<questions.length; i++)
 
 console.log('YAY!!! You scored: ' + score);
 
-if(score === 4||3){
+if(score >= 3){
   console.log('OMG!! your score is one of the highest scores\nDM me to display your name in high scores list!')
 }
-console.log('HIGH SCORES: ');
+console.log('\nHIGH SCORES: ');
 console.log("Gulz::4\nAmit::3");
